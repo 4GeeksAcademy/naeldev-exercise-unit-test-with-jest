@@ -25,7 +25,7 @@ test("One euro should be 1.07 dollars", function() {
 })
 
 
-test("One dollar should be 146.26 yen", function() {
+test("2.5 dollar should be 365.65 yen", function() {
     const{fromDollarToYen } =require('./app.js');
 
     const yens = fromDollarToYen(2.5);
@@ -66,7 +66,7 @@ test(" 12000 yens should be 66.70 pounds", function(){
     const{fromYenToPound } =require('./app.js');
     
     const pounds = (fromYenToPound(12000));
-    expect(fromYenToPound(12000)).toBeCloseTo(66.7,2)
+    expect(fromYenToPound(12000)).toBeCloseTo(66.709,3)
 })
 
 

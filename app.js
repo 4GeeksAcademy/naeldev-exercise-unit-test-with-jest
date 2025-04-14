@@ -43,7 +43,7 @@ const fromYenToPound = function(valueInYen) {
 
     return valueInPound;
 }
-console.log(fromYenToPound(12000))
+
 
 
 
